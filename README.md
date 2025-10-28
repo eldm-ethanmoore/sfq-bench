@@ -5,8 +5,6 @@
 **Python (64t)**: **Mutex=183 ops/s** → **SFQ=32k/s** (**175x**) | **Jain=1.0**  
 **C (128t)**: **0.18 → 7.3 Mops/s** (**40x**) | **10s tails → 50ns**
 
-[![Throughput](plots/throughput.png)](plots/throughput.png) [![Latency](plots/latency.png)](plots/latency.png)
-
 ## 🏆 **Proof**
 | Lang | Threads | Mutex | SFQ | **Win** | Max Tail |
 |------|---------|-------|-----|---------|----------|
